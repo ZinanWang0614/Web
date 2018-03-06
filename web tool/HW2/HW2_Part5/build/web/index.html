@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+              crossorigin="anonymous">
+        <title>Document</title>
+        <style type="text/css">
+            .lineHeight {
+                line-height: 1.2
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- header of the form page -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="CCISLogo_S_gR.png">
+                </div>
+                <div class="col lineHeight">
+                    <small>
+                        <b>Graduate School of Engineering
+                            <br> 130 Snell Engineering Center</b>
+                        Northeastern University
+                        <br> 360 Huntington Avenue
+                        <br> Boston, MA 02115-5000
+                    </small>
+                </div>
+                <div class="col lineHeight">
+                    <small>Phone: 617.373.2711
+                        <br> Fax: 617.373.2571
+                        <br> Web: www.coe.neu.edu/gse
+                    </small>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- body of the form page -->
+        <form method="post" action="ParameterNamesDemo">
+            <div class="container">
+                <table class="table">
+                    <thead class="text-center">
+                        <tr>
+                            <th scope="col">
+                                <h3>
+                                    <b>PETITION FORM</b>
+                                </h3>
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td scope="col">
+                                <p>Follow the instructions on the next page. Use
+                                    <b>fillable pdf</b> or PRINT CLEARLY to ensure your writing is legible. You must provide all required
+                                    supporting documents before a final decision is made on your petition.</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="col">
+
+
+                                <div class="form-group row">
+                                    <label class="col-md-1">NUID</label>
+                                    <div class="col">
+                                        <input type="text" class="col" name="NUID">
+                                    </div>
+                                    <label class="col-md-3">Current Program/Concentration</label>
+                                    <div class="col">
+                                        <input type="text" class="col" name="Current Program">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-1">Name</label>
+                                    <div class="col">
+                                        <input type="text" class="col" name="Last name">
+                                        <small>Last or Family Name</small>
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="col" name="First name">
+                                        <small>First or Given Name</small>
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="col" name="Middle Name">
+                                        <small>Middle Name</small>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-2">Local Address</label>
+                                    <div class="col-md-3">
+                                        <input type="text" class="col" name="Local Address">
+                                        <small>Street/Street #</small>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input type="text" class="col" name="City">
+                                        <small>City</small>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input type="text" class="col" name="State">
+                                        <small>State</small>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <input type="text" class="col" name="Zip code">
+                                        <small>Zip code</small>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-1">Phone</label>
+                                    <div class="col">
+                                        <input type="text" class="col" name="Phone" >
+                                    </div>
+                                    <label class="col-md-2">Husky E-Mail</label>
+                                    <div class="col">
+                                        <input type="email" class="col-md-6" name="email">
+                                        <span>@huksy.neu.edu</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col">Current Degree Level:</label>
+
+                                    <div class="col custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="Current Degree Level" value="MS" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio1">MS</label>
+                                    </div>
+
+                                    <div class="col custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="Current Degree Level" value="PhD" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">PhD</label>
+                                    </div>
+
+                                    <div class="col custom-control custom-radio">
+                                        <input type="radio" id="customRadio3" name="Current Degree Level" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio3">Certificate Only</label>
+                                    </div>
+
+                                    <div class="col custom-control custom-radio">
+                                        <input type="radio" id="customRadio4" name="Current Degree Level" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio4">Special Student</label>
+                                    </div>
+
+                                    <div class="col custom-control custom-radio">
+                                        <input type="radio" id="customRadio5" name="Current Degree Level" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio5">International</label>
+                                    </div>
+
+                                    <div class="col custom-control custom-radio">
+                                        <input type="radio" id="customRadio6" name="Current Degree Level" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio6">Domestic</label>
+                                    </div>
+
+                                </div>
+
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="col">
+
+                                <div class="form-group row">
+                                    <label class="col">Check all that apply:</label>
+
+                                    <div class="custom-control custom-checkbox col">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1" name="Check all that apply" value="Elective outside core curriculum">
+                                        <label class="custom-control-label" for="customCheck1">Elective outside core curriculum</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox col">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck2" name="Check all that apply" value="Core course waive">
+                                        <label class="custom-control-label" for="customCheck2">Core course waive</label>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group row">
+
+                                    <div class="custom-control custom-checkbox col">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck3" name="Check all that apply" value="Change in status">
+                                        <label class="custom-control-label" for="customCheck3">Change in status</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox col">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck4" name="Check all that apply" value="Course repeat/official substitution">
+                                        <label class="custom-control-label" for="customCheck4">Course repeat/official substitution </label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox col-md-5">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck5" name="Check all that apply" value="Extension of time limit to program completion">
+                                        <label class="custom-control-label" for="customCheck5">Extension of time limit to program completion</label>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="custom-control custom-checkbox col-md-2">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck6" name="Check all that apply" value="Others(specify)">
+                                        <label class="custom-control-label" for="customCheck6">Others(specify):</label>
+                                    </div>
+
+                                    <div class="col">
+                                        <input type="text" class="col" name="Check all that apply">
+                                    </div>
+                                </div>
+
+                                <br>
+
+                                <div class="form-group row">
+                                    <p>
+                                        1. For each course concerned, please provide the information below:
+                                    </p>
+
+                                </div>
+
+                                <div class="col">
+                                    <div class="col">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Course Name</th>
+                                                    <th scope="col">Term</th>
+                                                    <th scope="col">CRN #</th>
+                                                    <th scope="col">Course #</th>
+                                                    <th scope="col">#Credits</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row"></th>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group row">
+                                    <p>2. What are you petitioning? Please explain (attach separate sheet if necessary):
+                                    </p>
+                                </div>
+
+                                <div class="form-group row">
+                                    <input type="text" class="col">
+                                </div>
+
+                                <div class="form-group row">
+                                    <p>3. </p>
+                                    <label class="col-md-2">Student signature:</label>
+                                    <div class="col">
+                                        <input class="col" type="text">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input id="date" type="date" class="col">
+                                        <small>Date</small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td scope="col">
+
+                                <div class="form-group row">
+
+                                    <div class="col">
+                                        <h4>
+                                            <b>SUBMIT PETITION AND ANY SUPPORTING DOCUMENTS TO YOUR PROGRAM ADVISOR</b>
+                                        </h4>
+                                    </div>
+
+                                </div>
+
+                                <hr style="border-top: 10px double #8c8b8b">
+
+                                <div class="form-group row">
+                                    <p class="col-md-4"><i><b>Program Advisor </b></i></p>
+                                    <label class="col-md-2">Recommendation:</label>
+                                    <div class="custom-control custom-checkbox col">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck7" name="Recommendation" value="Approved">
+                                        <label class="custom-control-label" for="customCheck7" >Approved</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox col">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck8" name="Recommendation" value="Denied">
+                                        <label class="custom-control-label" for="customCheck8">Denied</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col">
+                                        <input type="text" class="col" name="Signature">
+                                        <small>Signature</small>
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="col" name="Print Name">
+                                        <small>Print Name</small>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-9">
+                                        <input type="text" class="col" name="Advisor's comments">
+                                        <small>Advisor’s comments and/or instructions</small>
+                                    </div>
+                                    <div class="col">
+                                        <input type="date" name="Date" class="col">
+                                        <small>Date</small>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-9">
+                                        <input type="text" class="col" name="ECE Graduate Committee Chair">
+                                        <small>ECE Graduate Committee Chair (ECE students only)</small>
+                                    </div>
+                                    <div class="col">
+                                        <input type="date" name="Date2" class="col">
+                                        <small>Date</small>
+                                    </div>
+                                </div>
+
+
+                                <hr style="border-top: 10px double #8c8b8b">
+
+                                <div class="form-group row">
+
+                                    <label class="col">Graduate School:</label>
+
+                                    <div class="col custom-control custom-radio col-md-1">
+                                        <input type="radio" id="customRadio7" name="Graduate School" value="Approved" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio7"><small>Approved</small></label>
+                                    </div>
+
+                                    <div class="col custom-control custom-radio col-md-1">
+                                        <input type="radio" id="customRadio8" name="Graduate School" value="Denied" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio8"><small>Denied</small></label>
+                                    </div>
+
+                                    <div class="col custom-control custom-radio">
+                                        <input type="radio" id="customRadio9" name="Graduate School" value="No Action" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio9"><small>No Action</small></label>
+                                    </div>
+
+                                    <div class="col custom-control custom-radio col-md-3">
+                                        <input type="radio" id="customRadio10" name="Graduate School" value="Returned for additional information" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio10"><small>Returned for additional information</small></label>
+                                    </div>
+
+                                    <div class="col custom-control custom-radio">
+                                        <input type="radio" id="customRadio11" name="Graduate School" value="ASC Report filed" class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio11"><small>ASC Report filed</small></label>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3">Comments to student:</label>
+                                    <div class="col">
+                                        <input type="text" class="col" name="Comments to student">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label class="col-md-3">Graduate school authorization</label>
+                                    <div class="col">
+                                        <input type="text" class="col" name="Graduate school authorization">
+                                    </div>
+                                    <label class="col-md-1">Date:</label>
+                                    <div class="col-md-3">
+                                        <input type="date" name="Date3">
+                                    </div>
+                                    <label class="col-md-2">Effective Term</label>
+                                    <div class="col">
+                                        <input type="text" class="col" name="Effective Term">
+                                    </div>
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td scope="col">
+
+
+                                <input type="submit" value="submit" name="button">
+
+
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </form>
+
+
+
+
+    </body>
+</html>

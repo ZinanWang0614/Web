@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="CSS/Assignment5_style.css" />
+
+</head>
+
+
+    <div id="header">
+        <h1>My Blogs</h1>
+        <p>Shark Blog by Zhifei Lin & Zinan Wang</p>
+
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li>
+                <a href="#" title="home">Home</a>
+            </li>
+            <li>
+                <a href="#" title="about">About</a>
+            </li>
+            <li>
+                <a href="#" title="Blogs">Blogs</a>
+            </li>
+            <li>
+                <a href="#" title="photo">Photo</a>
+            </li>
+            <li>
+                <a href="#" title="message">Message Board</a>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <!--nav end-->
+    <!--content start-->
+    <div id="content">
+        <!--left-->
+        <div class="left" id="c_left">
+
+            <div class="s_blist">
+                <b>Blogs List</b>
+                <button type="button" onclick="addEvent()">NewBlogs</button>
+            </div>
+
+            <div id="content_area" class="content_text">
+
+                <div class="blog">
+                    <h3>
+                        <a href="#" title="Blog1">China.</a>
+                    </h3>
+                    <dl>
+                            <dt><img src="China.jpg" width="200" height="123" alt=""></dt>
+                        <dd>
+                            <p class="dd_text_1" id="test1"></p>
+                            <p class="dd_text_2">
+                                <span id="author1" class="left author"></span>
+                                <span id="date1" class="left sj"></span>
+                                <span class="left yd">
+                                    <a href="#" title="Read the article"> Read More</a>
+                                </span>
+                                <div class="clear"></div>
+                            </p>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                </div>
+
+
+                <div class="blog">
+                    <h3>
+                        <a href="#" title="Blog2">Chichenitza, Mexico.</a>
+                    </h3>
+                    <dl>
+                            <dt><img src="Chichenitza.jpg" width="200" height="123" alt=""></dt>
+                        <dd>
+                            <p id="test2" class="dd_text_1"></p>
+                            <p class="dd_text_2">
+                                <span id="author2" class="left author"></span>
+                                <span id="date2" class="left sj"></span>
+                                <span class="left yd">
+                                    <a href="#" title="Read the article"> Read More</a>
+                                </span>
+                                <div class="clear"></div>
+                            </p>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                </div>
+
+
+                <div class="blog">
+                    <h3>
+                        <a href="#" title="Blog4">Vietnam.</a>
+                    </h3>
+                    <dl>
+                            <dt><img src="Vietnam.jpg" width="200" height="123" alt=""></dt>
+                        <dd>
+                            <p id="test3" class="dd_text_1"></p>
+                            <p class="dd_text_2">
+                                <span id="author3" class="left author"></span>
+                                <span id="date3" class="left sj"></span>
+                                <span class="left yd">
+                                    <a href="#" title="Read the article"> Read More</a>
+                                </span>
+                                <div class="clear"></div>
+                            </p>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                </div>
+
+
+                <div class="blog">
+                    <h3>
+                        <a href="#" title="Blog3">Hoian, Vietnam.</a>
+                    </h3>
+                    <dl>
+                            <dt><img src="Hoian.jpg" width="200" height="123" alt=""></dt>
+                        <dd>
+                            <p id="test4" class="dd_text_1"></p>
+                            <p class="dd_text_2">
+                                <span id="author4" class="left author"></span>
+                                <span id="date4" class="left sj"></span>
+                                <span class="left yd">
+                                    <a href="#" title="Read the article"> Read More</a>
+                                </span>
+                                <div class="clear"></div>
+                            </p>
+                        </dd>
+                        <div class="clear"></div>
+                    </dl>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="right" id="c_right">
+            <div class="s_about">
+                <h2>About</h2>
+                <img src="shark.jpg" width="230" height="230" alt="about"/>
+                <p>Shark</p>
+                <p>Zhifei Lin & Zinan Wang</p>
+
+            </div>
+
+            <div class="info">
+                <h2>Information</h2>
+                <p>
+                    <a href="#" title="Java">Java</a>
+                </p>
+                <p>
+                    <a href="#" title="C">C</a>
+                </p>
+                <p>
+                    <a href="#" title="MATLAB">MATLAB</a>
+                </p>
+                <p>
+                    <a href="#" title="CSS">CSS</a>
+                </p>
+                <p>
+                    <a href="#" title="Python">Python</a>
+                </p>
+            </div>
+
+
+            <div class="link">
+                <h2>Link</h2>
+                <p>
+                    <a href="https://github.com/">Github</a>
+                </p>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+    </div>
+
+    <script src="js/newblog.js"></script>
+    <script src="js/blog_content.js"></script>
+    <script src="js/blog_content.json"></script>
+    <script src="js/newblog.js" ></script>
+    <script src="js/newsticky.js"></script>
+</body>
+
+</html>
